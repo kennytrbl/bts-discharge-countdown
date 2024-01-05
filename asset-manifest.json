@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.376d75c8.css",
-    "main.js": "/static/js/main.6f439061.js",
-    "index.html": "/index.html",
-    "main.376d75c8.css.map": "/static/css/main.376d75c8.css.map",
-    "main.6f439061.js.map": "/static/js/main.6f439061.js.map"
+    "main.css": "/bts-discharge-countdown/static/css/main.376d75c8.css",
+    "main.js": "/bts-discharge-countdown/static/js/main.6f439061.js",
+    "index.html": "/bts-discharge-countdown/index.html",
+    "main.376d75c8.css.map": "/bts-discharge-countdown/static/css/main.376d75c8.css.map",
+    "main.6f439061.js.map": "/bts-discharge-countdown/static/js/main.6f439061.js.map"
   },
   "entrypoints": [
     "static/css/main.376d75c8.css",
