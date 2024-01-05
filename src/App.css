@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(120deg, #cfb5d7, #f2b2c4, #a9c4ea);
+  background-size: 400% 400%;
+  font-family: "Roboto", sans-senrif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a[href=""] {
+  display: none;
+}
+
+.footer a {
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 40px;
+}
