@@ -7,12 +7,8 @@ function App() {
       <h3>BTS Discharge Countdown</h3>
       <Info />
       {/* eslint-disable-next-line */}
-      <p className="footer">
-        a creation by
-        <a href="https://github.com/kennytrbl" target="_blank" rel="noreferrer">
-          Kenny Zhang
-        </a>
-        , © 2024
+      {/* prettier-ignore */}
+      <p className="footer">a creation by <a href="https://github.com/kennytrbl" target="_blank" rel="noreferrer">Kenny Zhang</a>, © 2024
       </p>
     </div>
   );
