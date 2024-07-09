@@ -82,7 +82,7 @@ const tiktokLink = ["", "", "", "", "", "", "https://www.tiktok.com/@jungkook"];
 function calculateDaysLeft(dischargeDate) {
   var distance = new Date(dischargeDate).getTime() - new Date().getTime();
   var days = Math.ceil(Math.floor(distance / (1000 * 60 * 60 * 24)));
-  if (days === 0) {
+  if (days === 0 || days < 0) {
     return 0;
   }
   return days;
