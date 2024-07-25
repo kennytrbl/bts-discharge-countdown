@@ -1,5 +1,19 @@
 body {
-  background: linear-gradient(120deg, #cfb5d7, #f2b2c4, #a9c4ea);
+  background-image: linear-gradient(
+    to right top,
+    #cfb5d7,
+    #d6b4d5,
+    #deb3d3,
+    #e5b3cf,
+    #ebb2cb,
+    #eab3ce,
+    #e8b4d2,
+    #e6b5d5,
+    #d9b8df,
+    #c9bce7,
+    #b9c0ea,
+    #a9c4ea
+  );
   background-size: 1600% 1600%;
   font-family: "Roboto", sans-senrif;
   font-size: 1.25rem;
